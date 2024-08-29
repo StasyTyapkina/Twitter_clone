@@ -30,7 +30,7 @@ export const Navbar = () => {
           Twitter Clone
         </Typography>
         {token && (
-          <Button color="inherit" onClick={handleLogout}>
+          <Button color="inherit" onClick={handleLogout} sx={{ ml: "auto" }}>
             Logout
           </Button>
         )}

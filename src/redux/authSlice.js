@@ -5,8 +5,8 @@ import { API_URL } from "../utils/url";
 const initialState = {
   name: "",
   email: "",
-  token: null,
-  isAuthenticated: false,
+  token: localStorage.getItem("token") || null,
+  isAuthenticated: !!localStorage.getItem("token"),
   loadingStatus: "idle",
   error: null,
 };
