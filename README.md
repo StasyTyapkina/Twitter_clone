@@ -1,6 +1,4 @@
-# XXX project
-
-## Live demo: [Click here](https://stasytyapkina.github.io/)
+# Twitter Clone
 
 ### `Getting Started`
 
@@ -11,6 +9,16 @@ After installing dependencies, run npm start to launch the application.
 
 ### `Key Features`
 
+#### `Authentication`
+
+#### `Timeline`
+
+#### Posts
+
+#### Comments
+
+#### User profile
+
 ### `Technical Information`
 
 The application is developed with React, ensuring fast and dynamic content loading.
@@ -18,3 +26,5 @@ Also used:
 
 - Redux Toolkit
 - Material-UI (mui)
+- Fuse
+- Formik
